@@ -233,7 +233,7 @@ a:active {
 
 .pcit{
   display: grid;
-  grid-template-columns: minmax(3em,3.5em) 1fr;  /* fixed year column -> consistent alignment */
+  grid-template-columns: 3em 1fr;  /* fixed year column -> consistent alignment */
   column-gap: 0.9em;
 
   margin: 0;
