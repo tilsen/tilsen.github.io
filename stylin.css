@@ -261,4 +261,9 @@ a:active {
   padding: 0;
   text-indent: 0;        /* guarantees no hanging indent inside entry */
 }
-
+@media (max-width: 520px){
+  .pcit{
+    grid-template-columns: 2.6em 1fr;  /* tighter year column */
+    column-gap: 0.4em;
+  }
+}
