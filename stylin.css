@@ -48,7 +48,8 @@
     -webkit-flex-wrap: nowrap;
     flex-wrap: nowrap;
 	height:200px;
-    min-width:120px;
+    min-width:0;
+	max-width:100%;
     padding:1em;
 }
 
