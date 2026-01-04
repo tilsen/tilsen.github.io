@@ -262,6 +262,10 @@ a:active {
   text-indent: 0;        /* guarantees no hanging indent inside entry */
 }
 
+.doi{
+	
+}
+
 @media (max-width: 520px){
   .pcit{
     grid-template-columns: 2.2em 1fr;  /* tighter year column */
@@ -272,5 +276,8 @@ a:active {
   }
   .paperdiv{
 	  padding: 10px 8px;
+  }
+  .doi{
+	  font-size: 0.50em;
   }
 }
