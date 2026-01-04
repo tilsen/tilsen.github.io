@@ -2,13 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://tilsen.github.io/</loc>
+    <loc>https://tilsen.github.io/index.html</loc>
     <lastmod>2026-01-04</lastmod>
-  </url>
-
-  <url>
-    <loc>https://tilsen.github.io/papers/</loc>
-    <lastmod>2026-01-02</lastmod>
   </url>
   
 </urlset>
