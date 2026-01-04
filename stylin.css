@@ -231,23 +231,34 @@ a:active {
     font-size: large;
 }
 
-.pcit {
-	display: grid;
-	grid-template-columns: max-content 1fr;
-	align-items: start;
-	column-gap: 1em;
-	margin: 0;
-	padding: 0;
-	text-indent: 0;
-    text-align: left;
-    font-family: Verdana, Arial, Helvetica, sans-serif;    
-    font-size: large;
-    overflow-wrap: break-word;
+.pcit{
+  display: grid;
+  grid-template-columns: 3.5em 1fr;  /* fixed year column -> consistent alignment */
+  column-gap: 0.9em;
+
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: left;
+  overflow-wrap: break-word;
+  align-items: start;
 }
 
-.pentry {
-	min-width:0;
+.pyear{
+  justify-self: end;     /* right edge alignment in the year column */
+  text-align: right;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
 }
 
-.pyear{ white-space: nowrap; }
+.pentry{
+  min-width: 0;          /* important for wrapping in grid */
+  margin: 0;
+  padding: 0;
+  text-indent: 0;        /* guarantees no hanging indent inside entry */
+}
 
