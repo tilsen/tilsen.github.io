@@ -266,6 +266,16 @@ a:active {
 	font-size:large;
 }
 
+/* DOI is a link but looks like plain text until hovered */
+.doi a:link, .doi a:visited, .doi a:active {
+	color: inherit;
+	text-decoration: none;
+}
+.doi a:hover {
+	color: #C00000;
+	text-decoration: none;
+}
+
 @media (max-width: 520px){
   .pcit{
     grid-template-columns: 2.2em 1fr;  /* tighter year column */
